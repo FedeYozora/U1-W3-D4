@@ -1,0 +1,66 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #131334;
+    font-family: "Outfit", sans-serif;
+    color: #ebebeb;
+  }
+
+  .container {
+    max-width: 768px;
+    margin-inline: auto;
+  }
+.bingo-cell {
+    display: inline-block;
+  width: 11.6%;
+  height: 88px;
+  position: relative;
+  border: 1px solid;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.bingo-cell h3 {
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    position: absolute;
+    top: 38%;
+    left: 0;
+    right: 0;
+
+}
+
+.rolled {
+    border-color: #7a408a;
+    background-color: yellow;
+    color: black;
+  }
+
+button {
+    left:-200px;
+    top: -600px;
+    width: 100px;
+    height: 50px;
+    position: relative;
+}
+
+h2 {
+    display: inline;
+    top: -710px;
+    left: 60px;
+    position: relative;
+}
+
+table {
+    table-layout: fixed;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    position: relative;
+    left: 70px;
+    top: -500px;
+}
